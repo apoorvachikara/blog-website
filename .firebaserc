@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "apoorvachikara-334105"
-  }
+    "default": "apoorvachikara-334105",
+    "production": "avtechstand"
+  },
+  "targets": {}
 }
