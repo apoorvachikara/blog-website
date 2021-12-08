@@ -49,6 +49,18 @@ const Bio = () => {
           <a href={`https://twitter.com/${social?.twitter || ``}`}>
             You should follow them on Twitter
           </a>
+          <div>
+          <a class="twitter" href={`https://twitter.com/chikara02apoor3`}>
+          </a>
+          <a class="instagram" href={`https://www.instagram.com/apoorv1702/`}>
+          </a>
+          <a class="stack-overflow" href={`https://stackoverflow.com/users/7025699/apoorva-chikara`}>
+          </a>
+          <a class="facebook" href={`https://www.facebook.com/dave.rhodes.79/`}>
+          </a>
+          <a class="github" href={`https://github.com/apoorvachikara`}>
+          </a>
+          </div>
         </p>
       )}
     </div>

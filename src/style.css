@@ -319,6 +319,41 @@ a:focus {
   margin-bottom: var(--spacing-8);
 }
 
+.twitter {
+  background: url(./images/twitter.png) no-repeat 6px center;
+  width: 32px;
+  height: 30px;
+  display: inline-block;
+}
+
+.stack-overflow {
+  background: url(./images/stack-overflow.png) no-repeat 6px center;
+  width: 32px;
+  height: 30px;
+  display: inline-block;
+}
+
+.instagram {
+  background: url(./images/instagram.png) no-repeat 6px center;
+  width: 35px;
+  height: 30px;
+  display: inline-block;
+}
+
+.facebook {
+  background: url(./images/facebook.jpg) no-repeat 6px center;
+  width: 32px;
+  height: 30px;
+  display: inline-block;
+}
+
+.github {
+  background: url(./images/github.jpg) no-repeat 6px center;
+  width: 32px;
+  height: 30px;
+  display: inline-block;
+}
+
 /* Media queries */
 
 @media (max-width: 42rem) {
