@@ -131,7 +131,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: [
-          `${process.env['GA']}`, // Google Analytics / GA
+          `${process.env['GATSBY_GA']}`, // Google Analytics / GA
         ],
         gtagConfig: {
           anonymize_ip: true,
