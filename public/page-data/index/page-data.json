@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-index-js",
     "path": "/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"Let's share the information via Blog"}},"allMarkdownRemark":{"nodes":[{"excerpt":"Javascript is a dynamic typed language and most people do not think it has types. All programming languages have some built-in types and…","fields":{"slug":"/Types in JS/"},"frontmatter":{"date":"December 04, 2021","title":"Types in Javascript","description":"Understanding types in JS is one of the fundamental concepts. You will be ready to crack any interview after reading this blog."}}]}},"pageContext":{}},
+    "result": {"data":{"site":{"siteMetadata":{"title":"One Stop for JS full-stack"}},"allMarkdownRemark":{"nodes":[{"excerpt":"Javascript is a dynamically typed language and most people do not think it has types. All programming languages have some built-in types and…","fields":{"slug":"/Types in JS/"},"frontmatter":{"date":"December 10, 2021","title":"Types in Javascript","description":"Understanding types in JS is one of the fundamental concepts. You will be ready to answer any `types` based questions after reading this blog. Please leave your comments on github if you feel any information is incorrect."}}]}},"pageContext":{}},
     "staticQueryHashes": ["2841359383","3257411868"]}

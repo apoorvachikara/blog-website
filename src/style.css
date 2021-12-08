@@ -85,6 +85,12 @@ body {
 
 footer {
   padding: var(--spacing-6) var(--spacing-0);
+ 
+}
+
+.footer_Text {
+  position: absolute;
+  bottom: 0px;
 }
 
 hr {
