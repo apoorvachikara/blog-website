@@ -1,6 +1,6 @@
 ---
 title: AutoBoxing in Javascript
-date: "2021-12-14T22:12:03.284Z"
+date: "2021-12-20T22:12:03.284Z"
 description: "Learn Autoboxing to understand how primitives type access methods and properties."
 ---
 
