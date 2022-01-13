@@ -6,7 +6,7 @@ description: "Learn Autoboxing to understand how primitives type access methods 
 
 Autoboxing in Javascript is not a new topic, but most of us have not heard or learned about it. Have you ever wondered why primitive types are able to access their associated object properties or methods? 
 
-If you want to know about types, I have a very descriptive blog [here](https://avtechstand.web.app/Types%20in%20JS/). You can excel on **types in 2 minutes** in Javascript.
+If you want to know about types, I have a very descriptive blog [here](/Types%20in%20JS/). You can excel on **types in 2 minutes** in Javascript.
 
 
 ### Primitives Types
