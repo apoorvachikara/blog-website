@@ -88,7 +88,9 @@ const even = numbers.filter(x => x % 2 === 0);
 console.log(even); // [2, 4, 6, 8, 10]
 ```
 
-`filter` doesn't mutate the array on which it is called. The range of elements processed by filter() is set before the first invocation of callback Functions. 
+`filter` doesn't mutate the array on which it is called. The range of elements processed by filter() is set before the first invocation of callback Functions.
+
+By default the filter method not passes the `empty` or `zero` values in the callback i.e it should `truthy` to pass the condition.
 
 #### When to use filter
 
@@ -159,3 +161,12 @@ This code does mutate it because we are doing that else it will run the logic on
 3) Can we call `filter` on `map`?
 
 Yes, we can do that as these methods are chainable and we can run other available methods on the returned array. We can chain only those methods that return an array.
+
+4) What is the o/p of below code?
+
+```
+const arr = [1, 2, ,3];
+arr.filter(x => x === x);
+```
+
+The o/p is `[1, 2, 3]` because the filter cb only passes the values to the result if they are `truthy` in nature.
