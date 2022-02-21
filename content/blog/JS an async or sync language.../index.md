@@ -14,7 +14,7 @@ Let us first understand what is synchronous or asynchronous means.
 
 ### Synchronous
 
-Synchronous meaning when the code is executed, it is done in line by line fashion. It means the second line will only be executed once the first line is successfully executed. I will be writing a series of blogs on how Javascript works and event loop and all other working parts soon. 
+Synchronous meaning when the code is executed, it is done in line by line fashion. It means the second line will only be executed once the first line is successfully executed. I will be writing a series of blogs on how Javascript works and event loop and all other working parts soon.
 
 Let's take an example of how `sync` code is executed:
 
