@@ -5,6 +5,7 @@ description: "Understanding is javascript an async or sync language. It seems us
 ---
 
 <img src="./async.png" alt="imagenode" style="width:200px;"/>
+![stackoverflow card](https://readme-components.vercel.app/api?component=stackoverflow&stackoverflowid=22656&textfill=ffffff&fill=ffc0cd)
 
 ## Introduction
 
@@ -18,7 +19,9 @@ Synchronous meaning when the code is executed, it is done in line by line fashio
 
 Let's take an example of how `sync` code is executed:
 
-```
+
+
+```javascript
 const arr = [1, 2, 3, 4];
 arr.push(5);
 console.log(arr) // [1, 2, 3, 4, 5]
@@ -125,6 +128,33 @@ while (state === 'ON') {
 }
 
 console.log('I am on main thread too....Don\'t block me');
+```
+
+```
+const main = async () => {
+   try {
+       const res = await loop();
+       console.log(res);
+   } catch (err) {
+       console.log(err);
+   } 
+   
+}
+
+const sleep = async () => {
+     return new Promise((res, rej) => {
+         setTimeout(() => {res('OFF')}, 10000);
+     })
+}
+
+const loop = async () => {
+    let status = "ON";
+    let count = 0;
+            while (status === 'ON') {
+                count += 1;
+                console.log(count);
+                status = await sleep();  // await works with whil
+            }};
 ```
 
 The main thread consists of the stack and once the stack is completely exhausted JS engine checks the event loop callback queue to push it to the stage for their processing. And in the first question, it will never be going to happen because of the forever while loop. 
